@@ -121,9 +121,6 @@ Key addresses (image base `0x400000`):
 | IDirect3DDevice7 pointer | `0x8491ec` |
 | 2D `DrawPrimitive` wrapper (FVF 0x1c4) | `0x4bda80` |
 
-If the exe is ever re-linked the signatures simply won't match, the plugin logs
-it and leaves the game alone, so it fails safe instead of crashing.
-
 ## Build
 
 ```bash
