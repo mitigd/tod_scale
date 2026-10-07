@@ -1,0 +1,11 @@
+# local helper scripts (not part of the release)
+install.sh
+uninstall.sh
+
+# local game folder path
+.game_dir
+
+# build / runtime junk
+*.o
+*.obj
+*.log
